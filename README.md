@@ -26,3 +26,11 @@ At the moment, the _Australian_ cities supported by this app include:
 - Perth
 - Hobart
 - Cairns (My Hometown❤️)
+
+## Roadmap
+- Emoji and Colour effects for different weather conditions (Sunny, windy etc.)
+- Choose a better name
+- Display additional weather information:
+    - Humidity
+    - Apparent Temperature
+    - Precipiation Probability
