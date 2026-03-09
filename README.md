@@ -1,20 +1,36 @@
 # Simple Weather App
+This is a simple weather application I created to consolidate my JavaScript knowledge, and learn how to use ReactJs.
 
-Testing if GIT setup correctly.
+## Installation and Usage
+Clone git repository and use:
+```bash
+npm install
 
+npm run dev
+```
 
+If you wish to temporarily host the application for another device on the network, instead use:
+```bash
+npm run dev -- --host
+```
+## Weather Data
+This app uses `openmeteo`'s free Weather API for all weather data.
+For more information, check out: https://open-meteo.com/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Supported Cities:
+At the moment, the _Australian_ cities supported by this app include:
+- Sydney
+- Melbourne
+- Adelaide
+- Brisbane
+- Perth
+- Hobart
+- Cairns (My Hometown❤️)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Roadmap
+- Emoji and Colour effects for different weather conditions (Sunny, windy etc.)
+- Choose a better name
+- Display additional weather information:
+    - Humidity
+    - Apparent Temperature
+    - Precipiation Probability

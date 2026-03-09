@@ -1,0 +1,40 @@
+{
+    "num_cities": 6,
+    "city_arr": [
+    {
+        "name": "SYDNEY",
+        "LONG": 151.2073,
+        "LAT": -33.8708
+    },
+    {
+        "name": "MELBOURNE",
+        "LONG": 144.9623,
+        "LAT": -37.8124
+    },
+    {
+        "name": "BRISBANE",
+        "LONG":153.0260,
+        "LAT": -27.4705
+    },
+    {
+        "name": "ADELAIDE",
+        "LONG": 138.6007,
+        "LAT": -34.9285
+    },
+    {
+        "name": "PERTH",
+        "LONG": 115.8617,
+        "LAT": -31.9514
+    },
+    {
+        "name": "HOBART",
+        "LONG": 147.3257,
+        "LAT": -42.8826
+    },
+    {
+        "name": "CAIRNS",
+        "LONG": 145.7710,
+        "LAT": -16.9203
+        }
+    ]
+}
