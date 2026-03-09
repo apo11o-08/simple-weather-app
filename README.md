@@ -13,3 +13,16 @@ If you wish to temporarily host the application for another device on the networ
 ```bash
 npm run dev -- --host
 ```
+## Weather Data
+This app uses `openmeteo`'s free Weather API for all weather data.
+For more information, check out: https://open-meteo.com/
+
+## Supported Cities:
+At the moment, the _Australian_ cities supported by this app include:
+- Sydney
+- Melbourne
+- Adelaide
+- Brisbane
+- Perth
+- Hobart
+- Cairns (My Hometown❤️)
