@@ -7,12 +7,9 @@ const DEC_PLACES = 2;
 
 
 function App() {
-
-
   const [temperature, setTemp] = useState(0);
   const [currentCity, setCurrentCity] = useState(citiesData.city_arr[0].name);
   const [loading, setLoading] = useState(true);
-
 
   const fetchWeather = async () => {
     setLoading(true);
